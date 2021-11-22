@@ -49,7 +49,7 @@ def rocauc_pr_curve_plot(model,
           Label for the ROC-AUC Curve and Precision-Recall Curve that is generated from the model. Defaults to 'Model'.
       
       curves_color ([str, optional]):      
-          Color for the ROC-AUC Curve and Precision-Recall Curve. Defaults to Northwestern Mutual Blue, '#0E4978'.
+          Color for the ROC-AUC Curve and Precision-Recall Curve. Defaults to Blue, '#0E4978'.
       
       curves_linewidth ([float, optional]):
           The width of the curves. Defaults to 1.
@@ -61,7 +61,7 @@ def rocauc_pr_curve_plot(model,
           The width of the 'no skill' lines. Defaults to 1.
       
       star_color         
-          Color of the star that denotes Youden's J-statistic and the F1-Score. Defaults to Northwester Mutual Gold, '#FFB81C'.
+          Color of the star that denotes Youden's J-statistic and the F1-Score. Defaults to Gold, '#FFB81C'.
       
       star_size ([float, optional]):          
           Size of the star marker. Defaults to 200.
